@@ -1,0 +1,13 @@
+{
+    "name": "text-to-ipa",
+    "description": "NodeJS port of text-to-ipa project (https://github.com/surrsurus/text-to-ipa)",
+    "version": "0.0.1",
+    "author": {
+        "name": "Shukri Adams",
+        "email": "shukri.adams@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shukriadams/node-text-to-ipa.git"
+    }
+}
