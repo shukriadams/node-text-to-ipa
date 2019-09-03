@@ -1,6 +1,8 @@
 # node-text-to-ipa
 
-NPM port of the amazing [text-to-ipa](https://github.com/surrsurus/text-to-ipa) project.
+https://www.npmjs.com/package/text-to-ipa
+
+NPM port of the amazing [text-to-ipa](https://github.com/surrsurus/text-to-ipa) project. 
 
 ## Use
 
