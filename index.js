@@ -55,6 +55,7 @@
 // Create a TextToIPA object only if one does not already exist. We create the
 // methods in a closure to avoid creating global variables.
 let dictLoaded = false,
+    path = require('path'),
     fs = require('fs');
 
 var TextToIPA = {};
@@ -94,7 +95,7 @@ if (typeof TextToIPA._parseDict !== 'function') {
 
 // Load the dictionary. Can be on the local machine or from a GET request.
 TextToIPA.loadDict = function (location) {
-    location =  './ipadict.txt';
+    location =  path.join(__dirname, 'ipadict.txt');
 
     console.log('TextToIPA: Loading dict from ' + location + '...');
 
